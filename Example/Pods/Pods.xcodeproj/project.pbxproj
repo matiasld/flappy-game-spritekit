@@ -1,0 +1,1503 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02D4FCAF58ECD34957955592DB002E4D /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0C2A4EE50098A41ED0263576915211 /* GameViewController.swift */; };
+		04D662EE3F0A2597321B5C67F28CF534 /* FlappyImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B56085119B3DB8B157D76FE4B42BAC /* FlappyImage.swift */; };
+		08FC8B4DE412FBD0F6321C9A8D4EA6BD /* Coin.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3D902C5A3EF955C760FA772EEC14E27C /* Coin.wav */; };
+		091AFBE4E810D994F30B8EF51422804A /* TitleScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = CD203B2E85B3CBFB32EBCFAE641B8DEC /* TitleScene.sks */; };
+		0B9E4C51481F2C2ECB810709AD45B078 /* rollover2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 367B6A6D61605F660EF66281202FA5AF /* rollover2.mp3 */; };
+		0ED2E327953C9E8FBD9F769FF1716FDF /* retro_transition_fade_from_centre.fsh in Resources */ = {isa = PBXBuildFile; fileRef = B6B869D5A6671F2EEB652CCDCF0BCEC1 /* retro_transition_fade_from_centre.fsh */; };
+		14CA0702BBE6DF0AA1F2CBBC03E564BE /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67360DEE65CCD6A3BF597CAF7FB8B305 /* GameScene.swift */; };
+		165DE6E3B3D4533D35D101E472CD52F4 /* Pixel Digivolve.otf in Resources */ = {isa = PBXBuildFile; fileRef = 81D7E0E5C8039D246DC2078118126B57 /* Pixel Digivolve.otf */; };
+		17865D89747DD928F756492ED936C737 /* RainParticleEffect.sks in Resources */ = {isa = PBXBuildFile; fileRef = E2BF08448868B91D52DA1A69D17906AD /* RainParticleEffect.sks */; };
+		1D55A02B6F1713CA5394D7B88D13328F /* FlappyModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1C5067CCE80ACA5F8383753A7EA7C3 /* FlappyModule.swift */; };
+		20813192316B52A79F097A4ABF0FE980 /* Updatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A6BFC75C6E86A577E432CA13BB3BBB8 /* Updatable.swift */; };
+		2718EE419DD377A46271720F6FDF065C /* SKAudioNode+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293CE579DA96F58824363B2EFFAADBA8 /* SKAudioNode+.swift */; };
+		2BC7585A1FA884A9BFABF0502C738697 /* FailedScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 458BCD539F6641D0A1E9DA7D99F5FED2 /* FailedScene.swift */; };
+		2BCDC7F4CC65489B21D9C32E8EDE0DEB /* animated-nyan-hip.gif in Resources */ = {isa = PBXBuildFile; fileRef = A9665CA0F9FCAB20B84EB4250A945E80 /* animated-nyan-hip.gif */; };
+		2E0B8C2A07DC0327B13FE2F8C6EA28C2 /* click1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 235B61BA94518463BC6699ACA41B0BC7 /* click1.mp3 */; };
+		327F26839236A7BFDFA2167FFF4D9D4D /* ControlInputDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE84C9F2AE9866672D6E84944EE258EB /* ControlInputDirection.swift */; };
+		33852DAABE0147FD716819D482121702 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		3AD2FE60C568E21A28ECFC2ABD51E74A /* main-theme1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 63D08F8234533E1C6C96FB81C5E0243F /* main-theme1.mp3 */; };
+		4705FDFBC136C54AFEC31C8549CBC7FC /* animated-nyan-squirrel.gif in Resources */ = {isa = PBXBuildFile; fileRef = 3373CE62BE08E5720A71153D4A42EC9A /* animated-nyan-squirrel.gif */; };
+		4C75DCA7EA76BF50204C9FEF19D055A0 /* ToggleButtonNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F832201C4ED34A7CFD128993C93A644 /* ToggleButtonNode.swift */; };
+		4E3874D6B4B3BDF0550072B0E14781F0 /* TouchToFlyScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 543171C053A0702157E297888A4C0AF0 /* TouchToFlyScene.sks */; };
+		53042DF17F18B03DCBCED5FBD5B06ED3 /* RoutingUtilityScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23086E278325110982AF06CB44381EF3 /* RoutingUtilityScene.swift */; };
+		539BDA1D5CEC2BDBA447E2B4B41E4A47 /* SnowParticleEffect.sks in Resources */ = {isa = PBXBuildFile; fileRef = 1B5AF2F72E582AFDAC926C580507F63F /* SnowParticleEffect.sks */; };
+		58B1AEC9EF366BD8573709F041618778 /* GameOverState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177E79F4732EE9152A5F65A580F52A7A /* GameOverState.swift */; };
+		5A8DC8E8AA949BA65AFE783C40456C97 /* SceneOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB96CB8455E6D14E8E59D90D57443F3 /* SceneOverlay.swift */; };
+		5D4713288CC178C5C7A3C3F752A08B2C /* retro_transition_fade_to_centre.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 5947F75932F2974602BF8BD710211353 /* retro_transition_fade_to_centre.fsh */; };
+		5D9370AC53D6055A9F88E287AB8C3280 /* UalaFlappy-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D29B745C9404E8AFFB0F960DF4804FC4 /* UalaFlappy-dummy.m */; };
+		5EE932624DE478F86EB25DCC904FF2A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A2B71365D2F569907FFED2999659184 /* Assets.xcassets */; };
+		6408D09C25062C7274FDA70F5AF7BE0B /* GameScene iPad.sks in Resources */ = {isa = PBXBuildFile; fileRef = 42946EF358B7D0C03608FC23D0B734DA /* GameScene iPad.sks */; };
+		64EEF1A1B6EFE774424D8CAFEBD579B9 /* GameViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B74A0C60F87A648B9961740C86DBBE8E /* GameViewController.xib */; };
+		677ED14B9D37DDB1C3B169DBE237DFD2 /* Touchable.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC334A2775F7D8034ACAC6907C51A659 /* Touchable.swift */; };
+		6AFCBF81DFE69227BC78BD9419DECB08 /* animated-nyancoin.gif in Resources */ = {isa = PBXBuildFile; fileRef = 5E496E9EA13104B3484E0E2598E979C9 /* animated-nyancoin.gif */; };
+		6E74BA26A0A9113FB36CE87B4FFBD61E /* GameViewController.xib in Sources */ = {isa = PBXBuildFile; fileRef = B74A0C60F87A648B9961740C86DBBE8E /* GameViewController.xib */; };
+		7245BC501834B308A1A19EA594E4F3D4 /* ScoresScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10369FA87CA22F5AD4683CF47934C3A1 /* ScoresScene.swift */; };
+		73826BEA711A586CD0DD8220910D97A3 /* Playable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1BA25C6BE00CE690FB07AD9B388CFE /* Playable.swift */; };
+		744ECA5C9215FEFACBB1AEB8F9D03873 /* retro_transition_fade_from_top.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 692B6124A742905EA638531DC7EC3BDA /* retro_transition_fade_from_top.fsh */; };
+		80EA3B7F4C95DA67C2973DAD6D690F81 /* TitleScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5FE694A82494BAA2029D9B03A8362B6 /* TitleScene.swift */; };
+		83558B6EFDF0BEBB7A63D8DA4101F9DD /* NyancatRainbowNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 576FF240B138C4959977A6BEAEBD800C /* NyancatRainbowNode.swift */; };
+		8403CA830376F23926E0BE4D5ED50CC4 /* Pods-UalaFlappy_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C329283B10903A37AB42726BA4C788F6 /* Pods-UalaFlappy_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8968C7C791F0E9716C3ACABEFA53D831 /* animated-jazz-nyan.gif in Resources */ = {isa = PBXBuildFile; fileRef = 7E8F873765D939AB4C730EA48F7F3806 /* animated-jazz-nyan.gif */; };
+		89A12BA1065CAFF568D0268F5E147F5A /* GameSceneProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD1B1F0127382B06E0662786365C330 /* GameSceneProtocol.swift */; };
+		8C43C9F0131BF32BEEB2DED5FFB9CDAB /* SKTextureAtlas+FrameUploader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F2AB397803B0BADD421B228BD4F4E8 /* SKTextureAtlas+FrameUploader.swift */; };
+		8E1CB7BDD2D39F360031ADA28B848AD8 /* SKEmitterNode+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C477D894229F9F08E2F53A97691C97 /* SKEmitterNode+Utils.swift */; };
+		8E4E288E4AAD13F233F2CCC9D5067668 /* switch3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DF5D1017CD968C41BC5C1A9ADE11F74E /* switch3.mp3 */; };
+		9019C8B21896E6589C62263E69F9A054 /* PauseScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 4E6BC59160F3967C0AE82CA6E76A30BB /* PauseScene.sks */; };
+		90E3296C4E1BA6DBBC197F3C1374CA98 /* PhysicsContactable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA0B0B10F65F73686D72AAEA3837965 /* PhysicsContactable.swift */; };
+		910F7B90E6C762190B6C2AF7A0445AF3 /* FailedScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = EF6E93F9D8E9738DE8B7CB8797223EB5 /* FailedScene.sks */; };
+		933E41945B8C297CAD94AF03EB42A903 /* NyancatNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50905B96357AF18BAFFA536CEB513D4 /* NyancatNode.swift */; };
+		9451651783AF2113D9C9A43DCEF6DC40 /* UalaFlappy-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 18AEEB6B374110460744C5FA63FA968B /* UalaFlappy-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95512C56FE60534BB4BBE5579B74BB37 /* Particles.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2482871FB2D05B4912BAB717240BE5BD /* Particles.xcassets */; };
+		956FBD390D4EA644208702DF1A9D804A /* TitleScene iPad.sks in Resources */ = {isa = PBXBuildFile; fileRef = B3F1FC8C372F64632A318A7B503C078A /* TitleScene iPad.sks */; };
+		97E83D824CF29F949249CC3914C54AF0 /* Pods-UalaFlappy_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7695A42E25A1C5100E8F91A6B81CD825 /* Pods-UalaFlappy_Tests-dummy.m */; };
+		9817C7432DEE385B2389172AC426F198 /* CharactersScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 2E50DF38D7DA508A4ADA068F5F895536 /* CharactersScene.sks */; };
+		9A8C50D1B967C471F795B4F4ED4C2C76 /* UalaFlappy-Flappy in Resources */ = {isa = PBXBuildFile; fileRef = 3A3687B3E5B1A1DE3BB4870C04AE5904 /* UalaFlappy-Flappy */; };
+		9D9196AB15ABB19FD6ABBC9A81E4B02A /* PlayingState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 198CCCDF67DAC8A310334D44256A5918 /* PlayingState.swift */; };
+		A01744216E11C8DC1177A1AA902832CE /* ScoreScene iPad.sks in Resources */ = {isa = PBXBuildFile; fileRef = E9EA5AA913806D34FE3198387451084E /* ScoreScene iPad.sks */; };
+		A1AB8E7B4B4BA43CFF27565AE489503A /* SettingsScene iPad.sks in Resources */ = {isa = PBXBuildFile; fileRef = 434B66A724876654CB4D5EE08A4B16FE /* SettingsScene iPad.sks */; };
+		A46BB80FFDFA11588FC7C5D5AFFBF61B /* SKTexture+Gradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C61D7136C49F49054A877608D7F701 /* SKTexture+Gradient.swift */; };
+		A7EA1CE4478B2F8A6C8BDE1E390D2D5D /* SKSpriteNode+GIF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A443AAD313A306F84FCDEF197A4C0B7 /* SKSpriteNode+GIF.swift */; };
+		A84F608FD1CBC72A3D82F5D709B3B927 /* SKScene+ShaderTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26F827D4B68165FB29A7578BEF6828D /* SKScene+ShaderTransition.swift */; };
+		A87645141628D69C587FD1E7894F0A57 /* TriggleButtonNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B98F1B5294B9CBB2F52335169D1D788 /* TriggleButtonNode.swift */; };
+		A9348C8221DDB25A4773050880EF0968 /* PrePlayScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = C99AC9A3842A2FD565B345E024019E5A /* PrePlayScene.sks */; };
+		A9AA9ACEB85545E285241E1010B1A8E4 /* CharactersScene iPad.sks in Resources */ = {isa = PBXBuildFile; fileRef = 6800126F11B2606B3CCE022247482585 /* CharactersScene iPad.sks */; };
+		AA10802B310FDA945A47672CB1602C07 /* ScoreScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 6271DE89132BF0BF529139CC858B6C76 /* ScoreScene.sks */; };
+		B371C0C00A056F79588FF255B87AB94F /* CGFloat+MathUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC46C3D601FF40A3CD48873531AB402 /* CGFloat+MathUtils.swift */; };
+		B38508588C94D64690FBB897EBB25966 /* SKScene+SpriteUploader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821498CBE80B1D6B1C8C3B89EB2DD62B /* SKScene+SpriteUploader.swift */; };
+		B857CAC752DDF3E1C7A8E0BD93CCCE79 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		B8E4627FC2B42F819BF860119E996893 /* GameSceneAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 069F5F7E04F8FBAE61C03FCDFB915325 /* GameSceneAdapter.swift */; };
+		BB9F100C452991271F992C6EBA853D5C /* CharactersScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BB5765D577DD30850840E0901A51C05 /* CharactersScene.swift */; };
+		BC4C7C0C5E0AA0BC548F8499D1906D06 /* FailedScene iPad.sks in Resources */ = {isa = PBXBuildFile; fileRef = 6C6E374ED1D0819B4D8446FF59D920F1 /* FailedScene iPad.sks */; };
+		BD17DFF79384162B2D144E77D0DC88BE /* Pods-UalaFlappy_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F99FE8BA95D56088CBB960AD2292047D /* Pods-UalaFlappy_Example-dummy.m */; };
+		C0D4F7283A531EA62AA5C25F946BB871 /* switch2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DB40F5445A279A4289D745E8D8E88EFB /* switch2.mp3 */; };
+		C3D160A01156947BA33DE76984361C84 /* Pods-UalaFlappy_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3420A03D76CC5A07C89FBE03564119E9 /* Pods-UalaFlappy_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C4455F2407E2B2E6F3A1D64AE8FC2DB0 /* BirdNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E977A949F84B4668537B270407B2B40 /* BirdNode.swift */; };
+		C4B22DAA467619056276A6BAAD213DFD /* retro_transition_fade_from_top_left.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 120E7F01748F512EC69433D549184707 /* retro_transition_fade_from_top_left.fsh */; };
+		C6A4CB18A2F591FB1AFB7870C0740305 /* click2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B428E432E50B8E8CBAEC90EAD307801A /* click2.mp3 */; };
+		CA113177F1CCC74C5828229531B891C4 /* MyScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = C14BC4127D901CC0777F950ED97DFB42 /* MyScene.swift */; };
+		CB41699E8F5C846AE9F88886BA67C9E6 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35050BFC7084AE9A69E18CE0C6D91046 /* ReplaceMe.swift */; };
+		CDCEEB9F71D3CC17B814ED50DB5F1118 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 73830D664D89C786881BFCD9FE807971 /* Actions.sks */; };
+		D0E9E93977F2E3C54F6B4C41E31F4257 /* PhysicsCategories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B6F08262615582EBC6DF9CE45AFBEC1 /* PhysicsCategories.swift */; };
+		D48FED9190A1DB3E3CFE6AFF37CE1867 /* animated-lifealope-nyan.gif in Resources */ = {isa = PBXBuildFile; fileRef = 94B73ABEA1FC4CBBB6C2DD3AF5C6F081 /* animated-lifealope-nyan.gif */; };
+		D73C44BBAC680FDCB952035FCE15EC18 /* PauseScene iPad.sks in Resources */ = {isa = PBXBuildFile; fileRef = 6B1E3CE5B4576395F606893AF7EA5763 /* PauseScene iPad.sks */; };
+		D9506F6DD9E184BC46272509E4DCEF66 /* POL-flight-master-short.wav in Resources */ = {isa = PBXBuildFile; fileRef = 362183390BF49EA644862125892D3D33 /* POL-flight-master-short.wav */; };
+		D95ACF4E144924842AEDB828767810E3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		DACE432647C8848665D1C94E6945B69B /* ButtonNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2736C84B8EC008F05101C1A5E9B6E5E /* ButtonNode.swift */; };
+		DBB77F467F23CEFA0A040B1D6FDE47CD /* InfiniteSpriteScrollNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABDE061B7550684E7A2667336FF7C15 /* InfiniteSpriteScrollNode.swift */; };
+		DFD21E5882BCE66E2051EA694029ECE5 /* rollover1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 439CC9D2C49E8C022B5EE26A9552AC53 /* rollover1.mp3 */; };
+		E410EF919F7F795D2510A709DDA1BDFD /* clock-final-tick.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 57EE2584161C25BF86C7D79921ECC622 /* clock-final-tick.mp3 */; };
+		E797078B330713078633614CF9671506 /* animated-gamecat-nyan.gif in Resources */ = {isa = PBXBuildFile; fileRef = 635C5D99C920AD9F86B5C18E112B1108 /* animated-gamecat-nyan.gif */; };
+		E90FEB5B4D64D922102F3498B6695EA4 /* SettingsScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = FCE59C9A4A1423866E8FBC14386F5AFD /* SettingsScene.sks */; };
+		E929D0150438F20F4514228CDE37B34F /* PipeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ECC53DAE085281E463A180133712DB3 /* PipeNode.swift */; };
+		EB3E61D68952FF7D9232EF5D30438D25 /* Bool+PipeRandom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB6D389B882741CBB1F7997E7207948 /* Bool+PipeRandom.swift */; };
+		EE0BB4312485883B0EFACBEE542A865E /* Hit_Hurt.wav in Resources */ = {isa = PBXBuildFile; fileRef = F4F4E04B6EC3182692E663B72C57B316 /* Hit_Hurt.wav */; };
+		EE201801DD6B90FA8FDE28C35973BD5D /* POL-catch-them-all-short.wav in Resources */ = {isa = PBXBuildFile; fileRef = A23AC5219D1908EF210ED585A9CB4978 /* POL-catch-them-all-short.wav */; };
+		F01C8FF08A263FC52DAEA062C5F45F10 /* PausedState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014DC7D1D725092E99AAEDE9F5210806 /* PausedState.swift */; };
+		F3E7E4900F71AD2F7BBAB59283B07EE9 /* clock-tick.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8C8F491CD6799C887D09FB25E7C45DFD /* clock-tick.mp3 */; };
+		F40FB5C7018382ECEB7678166A83B6DE /* PipeFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D42266274CD14A00061D2966239E51F /* PipeFactory.swift */; };
+		F4B6474F5095C9DBB7B0925BC073ADB7 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 1A431339303A5258798B318FAFE9F0DD /* GameScene.sks */; };
+		F774E2E7DD914CF9A96F9D6968476C67 /* MyScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = FCD26A57DAC5F30112BD236E41B2CAF8 /* MyScene.sks */; };
+		F9AB815B8A01C627ED3E13ED3CC3B5E9 /* UserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7252AE77F20F9F3442D9FFBAEF669E16 /* UserDefaults.swift */; };
+		FCD7C486C106D56153446D7E640DD2DB /* SettingsScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D489AE6AB7ACECB3AAC470DCEDBD6B /* SettingsScene.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		185C32BDE0446F09753E4049EE88F5FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 71B722285FFF855120FE09653F9552F7;
+			remoteInfo = "UalaFlappy-Flappy";
+		};
+		75E23A4FDF36F3C5FD124A86210820F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7587E32107F3EB64C5E03B4317CD7ED3;
+			remoteInfo = UalaFlappy;
+		};
+		CA18738F9EE92319CF9CF4A0CCBC87BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2128A7834C14F857A1BB0751F6876DD;
+			remoteInfo = "Pods-UalaFlappy_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		014DC7D1D725092E99AAEDE9F5210806 /* PausedState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PausedState.swift; sourceTree = "<group>"; };
+		069F5F7E04F8FBAE61C03FCDFB915325 /* GameSceneAdapter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GameSceneAdapter.swift; sourceTree = "<group>"; };
+		0AB6D389B882741CBB1F7997E7207948 /* Bool+PipeRandom.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Bool+PipeRandom.swift"; sourceTree = "<group>"; };
+		0C1C3B4AB5DB0C1BEB9C3E9BEA8F2019 /* Pods-UalaFlappy_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UalaFlappy_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		10369FA87CA22F5AD4683CF47934C3A1 /* ScoresScene.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ScoresScene.swift; sourceTree = "<group>"; };
+		120E7F01748F512EC69433D549184707 /* retro_transition_fade_from_top_left.fsh */ = {isa = PBXFileReference; includeInIndex = 1; path = retro_transition_fade_from_top_left.fsh; sourceTree = "<group>"; };
+		177E79F4732EE9152A5F65A580F52A7A /* GameOverState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GameOverState.swift; sourceTree = "<group>"; };
+		18AEEB6B374110460744C5FA63FA968B /* UalaFlappy-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UalaFlappy-umbrella.h"; sourceTree = "<group>"; };
+		198CCCDF67DAC8A310334D44256A5918 /* PlayingState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PlayingState.swift; sourceTree = "<group>"; };
+		1A431339303A5258798B318FAFE9F0DD /* GameScene.sks */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		1B5AF2F72E582AFDAC926C580507F63F /* SnowParticleEffect.sks */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.sks; path = SnowParticleEffect.sks; sourceTree = "<group>"; };
+		1BB5765D577DD30850840E0901A51C05 /* CharactersScene.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CharactersScene.swift; sourceTree = "<group>"; };
+		1D42266274CD14A00061D2966239E51F /* PipeFactory.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PipeFactory.swift; sourceTree = "<group>"; };
+		1F41FE9A3C07677F7A6B85E50EE3A8F0 /* UalaFlappy-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UalaFlappy-prefix.pch"; sourceTree = "<group>"; };
+		20C61D7136C49F49054A877608D7F701 /* SKTexture+Gradient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "SKTexture+Gradient.swift"; sourceTree = "<group>"; };
+		23086E278325110982AF06CB44381EF3 /* RoutingUtilityScene.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RoutingUtilityScene.swift; sourceTree = "<group>"; };
+		235B61BA94518463BC6699ACA41B0BC7 /* click1.mp3 */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = audio.mp3; path = click1.mp3; sourceTree = "<group>"; };
+		2482871FB2D05B4912BAB717240BE5BD /* Particles.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = Particles.xcassets; sourceTree = "<group>"; };
+		293CE579DA96F58824363B2EFFAADBA8 /* SKAudioNode+.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "SKAudioNode+.swift"; sourceTree = "<group>"; };
+		2B1C5067CCE80ACA5F8383753A7EA7C3 /* FlappyModule.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FlappyModule.swift; sourceTree = "<group>"; };
+		2E50DF38D7DA508A4ADA068F5F895536 /* CharactersScene.sks */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.sks; path = CharactersScene.sks; sourceTree = "<group>"; };
+		2ECC53DAE085281E463A180133712DB3 /* PipeNode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PipeNode.swift; sourceTree = "<group>"; };
+		31084B7E1326C5A93790C4235D7E7DF8 /* Pods-UalaFlappy_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-UalaFlappy_Tests.modulemap"; sourceTree = "<group>"; };
+		32F805918D35D7D53A7F2E298751EC52 /* Pods-UalaFlappy_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UalaFlappy_Example.release.xcconfig"; sourceTree = "<group>"; };
+		3373CE62BE08E5720A71153D4A42EC9A /* animated-nyan-squirrel.gif */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.gif; path = "animated-nyan-squirrel.gif"; sourceTree = "<group>"; };
+		3420A03D76CC5A07C89FBE03564119E9 /* Pods-UalaFlappy_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UalaFlappy_Example-umbrella.h"; sourceTree = "<group>"; };
+		35050BFC7084AE9A69E18CE0C6D91046 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = UalaFlappy/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		35D489AE6AB7ACECB3AAC470DCEDBD6B /* SettingsScene.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SettingsScene.swift; sourceTree = "<group>"; };
+		362183390BF49EA644862125892D3D33 /* POL-flight-master-short.wav */ = {isa = PBXFileReference; includeInIndex = 1; path = "POL-flight-master-short.wav"; sourceTree = "<group>"; };
+		36488F36ABC5448DA4424E3A4F6865CE /* UalaFlappy */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = UalaFlappy; path = UalaFlappy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		367B6A6D61605F660EF66281202FA5AF /* rollover2.mp3 */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = audio.mp3; path = rollover2.mp3; sourceTree = "<group>"; };
+		38A3821469D5DFE3BE7DA777C9D129EB /* Pods-UalaFlappy_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UalaFlappy_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		39F665C1D57989C5EE5B68E926264987 /* UalaFlappy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UalaFlappy.release.xcconfig; sourceTree = "<group>"; };
+		3A2B71365D2F569907FFED2999659184 /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3A3687B3E5B1A1DE3BB4870C04AE5904 /* UalaFlappy-Flappy */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "UalaFlappy-Flappy"; path = Flappy.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D902C5A3EF955C760FA772EEC14E27C /* Coin.wav */ = {isa = PBXFileReference; includeInIndex = 1; path = Coin.wav; sourceTree = "<group>"; };
+		42946EF358B7D0C03608FC23D0B734DA /* GameScene iPad.sks */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.sks; path = "GameScene iPad.sks"; sourceTree = "<group>"; };
+		42BA3E5C2DD8523BCA4A346E52B372D7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		434B66A724876654CB4D5EE08A4B16FE /* SettingsScene iPad.sks */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.sks; path = "SettingsScene iPad.sks"; sourceTree = "<group>"; };
+		437C51BFC1B059FC94956252064DC51F /* Pods-UalaFlappy_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-UalaFlappy_Example"; path = Pods_UalaFlappy_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		439CC9D2C49E8C022B5EE26A9552AC53 /* rollover1.mp3 */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = audio.mp3; path = rollover1.mp3; sourceTree = "<group>"; };
+		458BCD539F6641D0A1E9DA7D99F5FED2 /* FailedScene.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FailedScene.swift; sourceTree = "<group>"; };
+		4AA0B0B10F65F73686D72AAEA3837965 /* PhysicsContactable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PhysicsContactable.swift; sourceTree = "<group>"; };
+		4E6BC59160F3967C0AE82CA6E76A30BB /* PauseScene.sks */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.sks; path = PauseScene.sks; sourceTree = "<group>"; };
+		543171C053A0702157E297888A4C0AF0 /* TouchToFlyScene.sks */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.sks; path = TouchToFlyScene.sks; sourceTree = "<group>"; };
+		576FF240B138C4959977A6BEAEBD800C /* NyancatRainbowNode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NyancatRainbowNode.swift; sourceTree = "<group>"; };
+		57EE2584161C25BF86C7D79921ECC622 /* clock-final-tick.mp3 */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = audio.mp3; path = "clock-final-tick.mp3"; sourceTree = "<group>"; };
+		5947F75932F2974602BF8BD710211353 /* retro_transition_fade_to_centre.fsh */ = {isa = PBXFileReference; includeInIndex = 1; path = retro_transition_fade_to_centre.fsh; sourceTree = "<group>"; };
+		5A1BA25C6BE00CE690FB07AD9B388CFE /* Playable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Playable.swift; sourceTree = "<group>"; };
+		5E496E9EA13104B3484E0E2598E979C9 /* animated-nyancoin.gif */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.gif; path = "animated-nyancoin.gif"; sourceTree = "<group>"; };
+		5EB96CB8455E6D14E8E59D90D57443F3 /* SceneOverlay.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SceneOverlay.swift; sourceTree = "<group>"; };
+		5F832201C4ED34A7CFD128993C93A644 /* ToggleButtonNode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ToggleButtonNode.swift; sourceTree = "<group>"; };
+		6271DE89132BF0BF529139CC858B6C76 /* ScoreScene.sks */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.sks; path = ScoreScene.sks; sourceTree = "<group>"; };
+		635C5D99C920AD9F86B5C18E112B1108 /* animated-gamecat-nyan.gif */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.gif; path = "animated-gamecat-nyan.gif"; sourceTree = "<group>"; };
+		63D08F8234533E1C6C96FB81C5E0243F /* main-theme1.mp3 */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = audio.mp3; path = "main-theme1.mp3"; sourceTree = "<group>"; };
+		67360DEE65CCD6A3BF597CAF7FB8B305 /* GameScene.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		6800126F11B2606B3CCE022247482585 /* CharactersScene iPad.sks */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.sks; path = "CharactersScene iPad.sks"; sourceTree = "<group>"; };
+		692B6124A742905EA638531DC7EC3BDA /* retro_transition_fade_from_top.fsh */ = {isa = PBXFileReference; includeInIndex = 1; path = retro_transition_fade_from_top.fsh; sourceTree = "<group>"; };
+		6A6BFC75C6E86A577E432CA13BB3BBB8 /* Updatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Updatable.swift; sourceTree = "<group>"; };
+		6B1E3CE5B4576395F606893AF7EA5763 /* PauseScene iPad.sks */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.sks; path = "PauseScene iPad.sks"; sourceTree = "<group>"; };
+		6B6F08262615582EBC6DF9CE45AFBEC1 /* PhysicsCategories.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PhysicsCategories.swift; sourceTree = "<group>"; };
+		6B98F1B5294B9CBB2F52335169D1D788 /* TriggleButtonNode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TriggleButtonNode.swift; sourceTree = "<group>"; };
+		6C4900C63A0E64784D8B5CA361AFD9A6 /* Pods-UalaFlappy_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UalaFlappy_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6C6E374ED1D0819B4D8446FF59D920F1 /* FailedScene iPad.sks */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.sks; path = "FailedScene iPad.sks"; sourceTree = "<group>"; };
+		7252AE77F20F9F3442D9FFBAEF669E16 /* UserDefaults.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UserDefaults.swift; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		73830D664D89C786881BFCD9FE807971 /* Actions.sks */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		7695A42E25A1C5100E8F91A6B81CD825 /* Pods-UalaFlappy_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UalaFlappy_Tests-dummy.m"; sourceTree = "<group>"; };
+		76F2AB397803B0BADD421B228BD4F4E8 /* SKTextureAtlas+FrameUploader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "SKTextureAtlas+FrameUploader.swift"; sourceTree = "<group>"; };
+		7E8F873765D939AB4C730EA48F7F3806 /* animated-jazz-nyan.gif */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.gif; path = "animated-jazz-nyan.gif"; sourceTree = "<group>"; };
+		81D7E0E5C8039D246DC2078118126B57 /* Pixel Digivolve.otf */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pixel Digivolve.otf"; sourceTree = "<group>"; };
+		821498CBE80B1D6B1C8C3B89EB2DD62B /* SKScene+SpriteUploader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "SKScene+SpriteUploader.swift"; sourceTree = "<group>"; };
+		85E7C04B311CF38D4ECE031D0508787C /* ResourceBundle-Flappy-UalaFlappy-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-Flappy-UalaFlappy-Info.plist"; sourceTree = "<group>"; };
+		88AC40852EC653CBCF32ED65A047E79D /* Pods-UalaFlappy_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UalaFlappy_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		8A443AAD313A306F84FCDEF197A4C0B7 /* SKSpriteNode+GIF.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "SKSpriteNode+GIF.swift"; sourceTree = "<group>"; };
+		8C8F491CD6799C887D09FB25E7C45DFD /* clock-tick.mp3 */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = audio.mp3; path = "clock-tick.mp3"; sourceTree = "<group>"; };
+		90E862BD83D1F16E5F00B36A68DCF3EC /* Pods-UalaFlappy_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-UalaFlappy_Example.modulemap"; sourceTree = "<group>"; };
+		94B73ABEA1FC4CBBB6C2DD3AF5C6F081 /* animated-lifealope-nyan.gif */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.gif; path = "animated-lifealope-nyan.gif"; sourceTree = "<group>"; };
+		9BD1B1F0127382B06E0662786365C330 /* GameSceneProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GameSceneProtocol.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E977A949F84B4668537B270407B2B40 /* BirdNode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BirdNode.swift; sourceTree = "<group>"; };
+		A23AC5219D1908EF210ED585A9CB4978 /* POL-catch-them-all-short.wav */ = {isa = PBXFileReference; includeInIndex = 1; path = "POL-catch-them-all-short.wav"; sourceTree = "<group>"; };
+		A9665CA0F9FCAB20B84EB4250A945E80 /* animated-nyan-hip.gif */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.gif; path = "animated-nyan-hip.gif"; sourceTree = "<group>"; };
+		A9852BDF55FC4F35E9EFB6D150EE7FBF /* UalaFlappy-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "UalaFlappy-Info.plist"; sourceTree = "<group>"; };
+		AABDE061B7550684E7A2667336FF7C15 /* InfiniteSpriteScrollNode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = InfiniteSpriteScrollNode.swift; sourceTree = "<group>"; };
+		AC41AA71C411E6AFB510F9D358DCE8C7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		B26F827D4B68165FB29A7578BEF6828D /* SKScene+ShaderTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "SKScene+ShaderTransition.swift"; sourceTree = "<group>"; };
+		B3F1FC8C372F64632A318A7B503C078A /* TitleScene iPad.sks */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.sks; path = "TitleScene iPad.sks"; sourceTree = "<group>"; };
+		B428E432E50B8E8CBAEC90EAD307801A /* click2.mp3 */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = audio.mp3; path = click2.mp3; sourceTree = "<group>"; };
+		B6B869D5A6671F2EEB652CCDCF0BCEC1 /* retro_transition_fade_from_centre.fsh */ = {isa = PBXFileReference; includeInIndex = 1; path = retro_transition_fade_from_centre.fsh; sourceTree = "<group>"; };
+		B74A0C60F87A648B9961740C86DBBE8E /* GameViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = GameViewController.xib; sourceTree = "<group>"; };
+		BAF70E4BF902B664553060C467094E2A /* Pods-UalaFlappy_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UalaFlappy_Example-frameworks.sh"; sourceTree = "<group>"; };
+		C14BC4127D901CC0777F950ED97DFB42 /* MyScene.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MyScene.swift; sourceTree = "<group>"; };
+		C1C477D894229F9F08E2F53A97691C97 /* SKEmitterNode+Utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "SKEmitterNode+Utils.swift"; sourceTree = "<group>"; };
+		C329283B10903A37AB42726BA4C788F6 /* Pods-UalaFlappy_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UalaFlappy_Tests-umbrella.h"; sourceTree = "<group>"; };
+		C48E7D3553496BD0522DEA75563DE04A /* Pods-UalaFlappy_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UalaFlappy_Example-Info.plist"; sourceTree = "<group>"; };
+		C7450BE3818E576E04B3AF3F4014068A /* Pods-UalaFlappy_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-UalaFlappy_Tests"; path = Pods_UalaFlappy_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C927C1EC0A6A0D7A9C447F1DAA9C5B23 /* Pods-UalaFlappy_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UalaFlappy_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C99AC9A3842A2FD565B345E024019E5A /* PrePlayScene.sks */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.sks; path = PrePlayScene.sks; sourceTree = "<group>"; };
+		CBFD6BE498E233311D96880126554FB1 /* Pods-UalaFlappy_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UalaFlappy_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CD203B2E85B3CBFB32EBCFAE641B8DEC /* TitleScene.sks */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.sks; path = TitleScene.sks; sourceTree = "<group>"; };
+		D0650E1C49A0978F76FE21602196ADA7 /* Pods-UalaFlappy_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UalaFlappy_Tests-Info.plist"; sourceTree = "<group>"; };
+		D2736C84B8EC008F05101C1A5E9B6E5E /* ButtonNode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ButtonNode.swift; sourceTree = "<group>"; };
+		D29B745C9404E8AFFB0F960DF4804FC4 /* UalaFlappy-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UalaFlappy-dummy.m"; sourceTree = "<group>"; };
+		D50905B96357AF18BAFFA536CEB513D4 /* NyancatNode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NyancatNode.swift; sourceTree = "<group>"; };
+		D5FE694A82494BAA2029D9B03A8362B6 /* TitleScene.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TitleScene.swift; sourceTree = "<group>"; };
+		DB40F5445A279A4289D745E8D8E88EFB /* switch2.mp3 */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = audio.mp3; path = switch2.mp3; sourceTree = "<group>"; };
+		DE84C9F2AE9866672D6E84944EE258EB /* ControlInputDirection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ControlInputDirection.swift; sourceTree = "<group>"; };
+		DF5D1017CD968C41BC5C1A9ADE11F74E /* switch3.mp3 */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = audio.mp3; path = switch3.mp3; sourceTree = "<group>"; };
+		E0AD387E30111396BDC01A7336038AD0 /* UalaFlappy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UalaFlappy.debug.xcconfig; sourceTree = "<group>"; };
+		E2BF08448868B91D52DA1A69D17906AD /* RainParticleEffect.sks */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.sks; path = RainParticleEffect.sks; sourceTree = "<group>"; };
+		E5B2D54180E0D92258F702EE681D6020 /* UalaFlappy.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = UalaFlappy.modulemap; sourceTree = "<group>"; };
+		E9EA5AA913806D34FE3198387451084E /* ScoreScene iPad.sks */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.sks; path = "ScoreScene iPad.sks"; sourceTree = "<group>"; };
+		EA958EBF3D009AA18B26A3A1BC4AD613 /* UalaFlappy.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = UalaFlappy.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		EC334A2775F7D8034ACAC6907C51A659 /* Touchable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Touchable.swift; sourceTree = "<group>"; };
+		EF6E93F9D8E9738DE8B7CB8797223EB5 /* FailedScene.sks */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.sks; path = FailedScene.sks; sourceTree = "<group>"; };
+		EFC46C3D601FF40A3CD48873531AB402 /* CGFloat+MathUtils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "CGFloat+MathUtils.swift"; sourceTree = "<group>"; };
+		F4F4E04B6EC3182692E663B72C57B316 /* Hit_Hurt.wav */ = {isa = PBXFileReference; includeInIndex = 1; path = Hit_Hurt.wav; sourceTree = "<group>"; };
+		F5B56085119B3DB8B157D76FE4B42BAC /* FlappyImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FlappyImage.swift; sourceTree = "<group>"; };
+		F878707ECE24D72FA9119BC1E7D5C92B /* Pods-UalaFlappy_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UalaFlappy_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		F99FE8BA95D56088CBB960AD2292047D /* Pods-UalaFlappy_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UalaFlappy_Example-dummy.m"; sourceTree = "<group>"; };
+		FCD26A57DAC5F30112BD236E41B2CAF8 /* MyScene.sks */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.sks; path = MyScene.sks; sourceTree = "<group>"; };
+		FCE59C9A4A1423866E8FBC14386F5AFD /* SettingsScene.sks */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.sks; path = SettingsScene.sks; sourceTree = "<group>"; };
+		FD0C2A4EE50098A41ED0263576915211 /* GameViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3A0A0CC53B54E141EDFF9F8ABA15820D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B857CAC752DDF3E1C7A8E0BD93CCCE79 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F5418AFD10BEC3FE0BD3C0EE4A73E8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECF8239306293991793081DD239200F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33852DAABE0147FD716819D482121702 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0E043C6D7439E683C8AF9954234DEA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D95ACF4E144924842AEDB828767810E3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0079B9DC13335EA7704C8F25F8980474 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				81D7E0E5C8039D246DC2078118126B57 /* Pixel Digivolve.otf */,
+			);
+			name = Fonts;
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		07A7A434E85BAA8F46500E1219C1E695 /* Transitions */ = {
+			isa = PBXGroup;
+			children = (
+				B6B869D5A6671F2EEB652CCDCF0BCEC1 /* retro_transition_fade_from_centre.fsh */,
+				692B6124A742905EA638531DC7EC3BDA /* retro_transition_fade_from_top.fsh */,
+				120E7F01748F512EC69433D549184707 /* retro_transition_fade_from_top_left.fsh */,
+				5947F75932F2974602BF8BD710211353 /* retro_transition_fade_to_centre.fsh */,
+			);
+			name = Transitions;
+			path = Transitions;
+			sourceTree = "<group>";
+		};
+		0A3A6ABEB325C0CDF9DF2C511A5EF702 /* Adapters */ = {
+			isa = PBXGroup;
+			children = (
+				069F5F7E04F8FBAE61C03FCDFB915325 /* GameSceneAdapter.swift */,
+			);
+			name = Adapters;
+			path = UalaFlappy/Classes/Adapters;
+			sourceTree = "<group>";
+		};
+		0E4A82C08C779C26CBC422A3CD25E619 /* Actions */ = {
+			isa = PBXGroup;
+			children = (
+				73830D664D89C786881BFCD9FE807971 /* Actions.sks */,
+			);
+			name = Actions;
+			path = Actions;
+			sourceTree = "<group>";
+		};
+		14D88AFD02DBF46C27CCC93493E97155 /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				2DC718ECE256AB075245EC1689D05F01 /* Music */,
+				3864A21AF53BF48A81146B3A7DD99ECD /* Sound */,
+			);
+			name = Game;
+			path = Game;
+			sourceTree = "<group>";
+		};
+		1714DEBBF239D081C13E96EA2A7DA1EE /* Factories */ = {
+			isa = PBXGroup;
+			children = (
+				1D42266274CD14A00061D2966239E51F /* PipeFactory.swift */,
+			);
+			name = Factories;
+			path = UalaFlappy/Classes/Factories;
+			sourceTree = "<group>";
+		};
+		1B3C4BB50CA1DDA9B0A94D723CDC3AD1 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				3A2B71365D2F569907FFED2999659184 /* Assets.xcassets */,
+				0E4A82C08C779C26CBC422A3CD25E619 /* Actions */,
+				6E5C75F7B6689D25FDAB1979AB58B791 /* Animated Players */,
+				0079B9DC13335EA7704C8F25F8980474 /* Fonts */,
+				8F46964B0F69B589B0C5D1F482033270 /* Particles */,
+				CC4F2239BA77B8E4173DAA379D3684AD /* Scenes */,
+				FAC2F604D14FAD4C56952CC333C3D923 /* Shaders */,
+				DAC9A318E53538A6A58A4903DF756027 /* Sound */,
+			);
+			name = Assets;
+			path = UalaFlappy/Assets;
+			sourceTree = "<group>";
+		};
+		2030AAB1A25908A9FD638224BC0B9B64 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				0AB6D389B882741CBB1F7997E7207948 /* Bool+PipeRandom.swift */,
+				EFC46C3D601FF40A3CD48873531AB402 /* CGFloat+MathUtils.swift */,
+				F5B56085119B3DB8B157D76FE4B42BAC /* FlappyImage.swift */,
+				293CE579DA96F58824363B2EFFAADBA8 /* SKAudioNode+.swift */,
+				C1C477D894229F9F08E2F53A97691C97 /* SKEmitterNode+Utils.swift */,
+				B26F827D4B68165FB29A7578BEF6828D /* SKScene+ShaderTransition.swift */,
+				821498CBE80B1D6B1C8C3B89EB2DD62B /* SKScene+SpriteUploader.swift */,
+				8A443AAD313A306F84FCDEF197A4C0B7 /* SKSpriteNode+GIF.swift */,
+				20C61D7136C49F49054A877608D7F701 /* SKTexture+Gradient.swift */,
+				76F2AB397803B0BADD421B228BD4F4E8 /* SKTextureAtlas+FrameUploader.swift */,
+			);
+			name = Extensions;
+			path = UalaFlappy/Classes/Extensions;
+			sourceTree = "<group>";
+		};
+		2DC718ECE256AB075245EC1689D05F01 /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				63D08F8234533E1C6C96FB81C5E0243F /* main-theme1.mp3 */,
+				A23AC5219D1908EF210ED585A9CB4978 /* POL-catch-them-all-short.wav */,
+				362183390BF49EA644862125892D3D33 /* POL-flight-master-short.wav */,
+			);
+			name = Music;
+			path = Music;
+			sourceTree = "<group>";
+		};
+		2FDCABF4EC08976829C52EDC75B1563B /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				579023994FD03AEF876ABB4C4180D81D /* Pods-UalaFlappy_Example */,
+				B23AA735D2498E79C290939F680C618B /* Pods-UalaFlappy_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		316EC123DB6FEED5F1B972EC48FA5364 /* Utility Overlay */ = {
+			isa = PBXGroup;
+			children = (
+				C99AC9A3842A2FD565B345E024019E5A /* PrePlayScene.sks */,
+				543171C053A0702157E297888A4C0AF0 /* TouchToFlyScene.sks */,
+			);
+			name = "Utility Overlay";
+			path = "Utility Overlay";
+			sourceTree = "<group>";
+		};
+		3350E44B5F2838A1CE44876FB8A628A2 /* UalaFlappy */ = {
+			isa = PBXGroup;
+			children = (
+				35050BFC7084AE9A69E18CE0C6D91046 /* ReplaceMe.swift */,
+				0A3A6ABEB325C0CDF9DF2C511A5EF702 /* Adapters */,
+				1B3C4BB50CA1DDA9B0A94D723CDC3AD1 /* Assets */,
+				D342ACF40A0625C35A22971B3C24BF17 /* Control */,
+				2030AAB1A25908A9FD638224BC0B9B64 /* Extensions */,
+				1714DEBBF239D081C13E96EA2A7DA1EE /* Factories */,
+				C0FFBA92616F0AAAA34FEADE76F3E8F8 /* Game States */,
+				8D2A88245BF10F01BF372B3043D7D201 /* Modules */,
+				48079C475D115489DBC408168BA317EF /* Nodes */,
+				CEFEF55D7E8F428082294DC1BB5CB01D /* Pod */,
+				4577593D2896EF9267FC098585103F19 /* Protocols */,
+				F50F1CC9F786DB3E59D3A39DDF9051EB /* Scenes */,
+				6E5C28A8CB88B1FF86A9F7B5082DAE44 /* Support Files */,
+				728F98BD37584893594D6E6305EEEF69 /* Utils */,
+			);
+			name = UalaFlappy;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		3864A21AF53BF48A81146B3A7DD99ECD /* Sound */ = {
+			isa = PBXGroup;
+			children = (
+				3D902C5A3EF955C760FA772EEC14E27C /* Coin.wav */,
+				F4F4E04B6EC3182692E663B72C57B316 /* Hit_Hurt.wav */,
+			);
+			name = Sound;
+			path = Sound;
+			sourceTree = "<group>";
+		};
+		40897B423322FFC11DE577C189E9F280 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				235B61BA94518463BC6699ACA41B0BC7 /* click1.mp3 */,
+				B428E432E50B8E8CBAEC90EAD307801A /* click2.mp3 */,
+				57EE2584161C25BF86C7D79921ECC622 /* clock-final-tick.mp3 */,
+				8C8F491CD6799C887D09FB25E7C45DFD /* clock-tick.mp3 */,
+				439CC9D2C49E8C022B5EE26A9552AC53 /* rollover1.mp3 */,
+				367B6A6D61605F660EF66281202FA5AF /* rollover2.mp3 */,
+				DB40F5445A279A4289D745E8D8E88EFB /* switch2.mp3 */,
+				DF5D1017CD968C41BC5C1A9ADE11F74E /* switch3.mp3 */,
+			);
+			name = UI;
+			path = UI;
+			sourceTree = "<group>";
+		};
+		4577593D2896EF9267FC098585103F19 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				9BD1B1F0127382B06E0662786365C330 /* GameSceneProtocol.swift */,
+				4AA0B0B10F65F73686D72AAEA3837965 /* PhysicsContactable.swift */,
+				5A1BA25C6BE00CE690FB07AD9B388CFE /* Playable.swift */,
+				EC334A2775F7D8034ACAC6907C51A659 /* Touchable.swift */,
+				6A6BFC75C6E86A577E432CA13BB3BBB8 /* Updatable.swift */,
+			);
+			name = Protocols;
+			path = UalaFlappy/Classes/Protocols;
+			sourceTree = "<group>";
+		};
+		48079C475D115489DBC408168BA317EF /* Nodes */ = {
+			isa = PBXGroup;
+			children = (
+				D25294218B546F1ABAD565CC0C12EE0F /* Game Componens */,
+				4AEEAA0CB72C06E6ABC45E26BFFD0D75 /* Playables */,
+				563C9374F1F33E31A3C86EAD36667AB8 /* UI Components */,
+			);
+			name = Nodes;
+			path = UalaFlappy/Classes/Nodes;
+			sourceTree = "<group>";
+		};
+		4AEEAA0CB72C06E6ABC45E26BFFD0D75 /* Playables */ = {
+			isa = PBXGroup;
+			children = (
+				9E977A949F84B4668537B270407B2B40 /* BirdNode.swift */,
+				D50905B96357AF18BAFFA536CEB513D4 /* NyancatNode.swift */,
+				576FF240B138C4959977A6BEAEBD800C /* NyancatRainbowNode.swift */,
+			);
+			name = Playables;
+			path = Playables;
+			sourceTree = "<group>";
+		};
+		563C9374F1F33E31A3C86EAD36667AB8 /* UI Components */ = {
+			isa = PBXGroup;
+			children = (
+				D2736C84B8EC008F05101C1A5E9B6E5E /* ButtonNode.swift */,
+				5F832201C4ED34A7CFD128993C93A644 /* ToggleButtonNode.swift */,
+				6B98F1B5294B9CBB2F52335169D1D788 /* TriggleButtonNode.swift */,
+			);
+			name = "UI Components";
+			path = "UI Components";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		579023994FD03AEF876ABB4C4180D81D /* Pods-UalaFlappy_Example */ = {
+			isa = PBXGroup;
+			children = (
+				90E862BD83D1F16E5F00B36A68DCF3EC /* Pods-UalaFlappy_Example.modulemap */,
+				CBFD6BE498E233311D96880126554FB1 /* Pods-UalaFlappy_Example-acknowledgements.markdown */,
+				38A3821469D5DFE3BE7DA777C9D129EB /* Pods-UalaFlappy_Example-acknowledgements.plist */,
+				F99FE8BA95D56088CBB960AD2292047D /* Pods-UalaFlappy_Example-dummy.m */,
+				BAF70E4BF902B664553060C467094E2A /* Pods-UalaFlappy_Example-frameworks.sh */,
+				C48E7D3553496BD0522DEA75563DE04A /* Pods-UalaFlappy_Example-Info.plist */,
+				3420A03D76CC5A07C89FBE03564119E9 /* Pods-UalaFlappy_Example-umbrella.h */,
+				F878707ECE24D72FA9119BC1E7D5C92B /* Pods-UalaFlappy_Example.debug.xcconfig */,
+				32F805918D35D7D53A7F2E298751EC52 /* Pods-UalaFlappy_Example.release.xcconfig */,
+			);
+			name = "Pods-UalaFlappy_Example";
+			path = "Target Support Files/Pods-UalaFlappy_Example";
+			sourceTree = "<group>";
+		};
+		5C9FDEF928D0B8D8D69B296EB227E3DB /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3350E44B5F2838A1CE44876FB8A628A2 /* UalaFlappy */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		6E5C28A8CB88B1FF86A9F7B5082DAE44 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				85E7C04B311CF38D4ECE031D0508787C /* ResourceBundle-Flappy-UalaFlappy-Info.plist */,
+				E5B2D54180E0D92258F702EE681D6020 /* UalaFlappy.modulemap */,
+				D29B745C9404E8AFFB0F960DF4804FC4 /* UalaFlappy-dummy.m */,
+				A9852BDF55FC4F35E9EFB6D150EE7FBF /* UalaFlappy-Info.plist */,
+				1F41FE9A3C07677F7A6B85E50EE3A8F0 /* UalaFlappy-prefix.pch */,
+				18AEEB6B374110460744C5FA63FA968B /* UalaFlappy-umbrella.h */,
+				E0AD387E30111396BDC01A7336038AD0 /* UalaFlappy.debug.xcconfig */,
+				39F665C1D57989C5EE5B68E926264987 /* UalaFlappy.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/UalaFlappy";
+			sourceTree = "<group>";
+		};
+		6E5C75F7B6689D25FDAB1979AB58B791 /* Animated Players */ = {
+			isa = PBXGroup;
+			children = (
+				635C5D99C920AD9F86B5C18E112B1108 /* animated-gamecat-nyan.gif */,
+				7E8F873765D939AB4C730EA48F7F3806 /* animated-jazz-nyan.gif */,
+				94B73ABEA1FC4CBBB6C2DD3AF5C6F081 /* animated-lifealope-nyan.gif */,
+				A9665CA0F9FCAB20B84EB4250A945E80 /* animated-nyan-hip.gif */,
+				3373CE62BE08E5720A71153D4A42EC9A /* animated-nyan-squirrel.gif */,
+				5E496E9EA13104B3484E0E2598E979C9 /* animated-nyancoin.gif */,
+			);
+			name = "Animated Players";
+			path = "Animated Players";
+			sourceTree = "<group>";
+		};
+		728F98BD37584893594D6E6305EEEF69 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				6B6F08262615582EBC6DF9CE45AFBEC1 /* PhysicsCategories.swift */,
+				7252AE77F20F9F3442D9FFBAEF669E16 /* UserDefaults.swift */,
+			);
+			name = Utils;
+			path = UalaFlappy/Classes/Utils;
+			sourceTree = "<group>";
+		};
+		8D2A88245BF10F01BF372B3043D7D201 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				2B1C5067CCE80ACA5F8383753A7EA7C3 /* FlappyModule.swift */,
+				FD0C2A4EE50098A41ED0263576915211 /* GameViewController.swift */,
+				B74A0C60F87A648B9961740C86DBBE8E /* GameViewController.xib */,
+			);
+			name = Modules;
+			path = UalaFlappy/Classes/Modules;
+			sourceTree = "<group>";
+		};
+		8F46964B0F69B589B0C5D1F482033270 /* Particles */ = {
+			isa = PBXGroup;
+			children = (
+				2482871FB2D05B4912BAB717240BE5BD /* Particles.xcassets */,
+				E2BF08448868B91D52DA1A69D17906AD /* RainParticleEffect.sks */,
+				1B5AF2F72E582AFDAC926C580507F63F /* SnowParticleEffect.sks */,
+			);
+			name = Particles;
+			path = Particles;
+			sourceTree = "<group>";
+		};
+		B1649FD394A41B7E0C1CD984ADB0F8AC /* Game Overlay */ = {
+			isa = PBXGroup;
+			children = (
+				EF6E93F9D8E9738DE8B7CB8797223EB5 /* FailedScene.sks */,
+				6C6E374ED1D0819B4D8446FF59D920F1 /* FailedScene iPad.sks */,
+				4E6BC59160F3967C0AE82CA6E76A30BB /* PauseScene.sks */,
+				6B1E3CE5B4576395F606893AF7EA5763 /* PauseScene iPad.sks */,
+			);
+			name = "Game Overlay";
+			path = "Game Overlay";
+			sourceTree = "<group>";
+		};
+		B23AA735D2498E79C290939F680C618B /* Pods-UalaFlappy_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				31084B7E1326C5A93790C4235D7E7DF8 /* Pods-UalaFlappy_Tests.modulemap */,
+				6C4900C63A0E64784D8B5CA361AFD9A6 /* Pods-UalaFlappy_Tests-acknowledgements.markdown */,
+				C927C1EC0A6A0D7A9C447F1DAA9C5B23 /* Pods-UalaFlappy_Tests-acknowledgements.plist */,
+				7695A42E25A1C5100E8F91A6B81CD825 /* Pods-UalaFlappy_Tests-dummy.m */,
+				D0650E1C49A0978F76FE21602196ADA7 /* Pods-UalaFlappy_Tests-Info.plist */,
+				C329283B10903A37AB42726BA4C788F6 /* Pods-UalaFlappy_Tests-umbrella.h */,
+				88AC40852EC653CBCF32ED65A047E79D /* Pods-UalaFlappy_Tests.debug.xcconfig */,
+				0C1C3B4AB5DB0C1BEB9C3E9BEA8F2019 /* Pods-UalaFlappy_Tests.release.xcconfig */,
+			);
+			name = "Pods-UalaFlappy_Tests";
+			path = "Target Support Files/Pods-UalaFlappy_Tests";
+			sourceTree = "<group>";
+		};
+		B7A06A8C14914EE9FDF7A5A792A1474B /* Main Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				2E50DF38D7DA508A4ADA068F5F895536 /* CharactersScene.sks */,
+				6800126F11B2606B3CCE022247482585 /* CharactersScene iPad.sks */,
+				1A431339303A5258798B318FAFE9F0DD /* GameScene.sks */,
+				42946EF358B7D0C03608FC23D0B734DA /* GameScene iPad.sks */,
+				6271DE89132BF0BF529139CC858B6C76 /* ScoreScene.sks */,
+				E9EA5AA913806D34FE3198387451084E /* ScoreScene iPad.sks */,
+				FCE59C9A4A1423866E8FBC14386F5AFD /* SettingsScene.sks */,
+				434B66A724876654CB4D5EE08A4B16FE /* SettingsScene iPad.sks */,
+				CD203B2E85B3CBFB32EBCFAE641B8DEC /* TitleScene.sks */,
+				B3F1FC8C372F64632A318A7B503C078A /* TitleScene iPad.sks */,
+			);
+			name = "Main Scenes";
+			path = "Main Scenes";
+			sourceTree = "<group>";
+		};
+		C0FFBA92616F0AAAA34FEADE76F3E8F8 /* Game States */ = {
+			isa = PBXGroup;
+			children = (
+				177E79F4732EE9152A5F65A580F52A7A /* GameOverState.swift */,
+				014DC7D1D725092E99AAEDE9F5210806 /* PausedState.swift */,
+				198CCCDF67DAC8A310334D44256A5918 /* PlayingState.swift */,
+			);
+			name = "Game States";
+			path = "UalaFlappy/Classes/Game States";
+			sourceTree = "<group>";
+		};
+		CC4F2239BA77B8E4173DAA379D3684AD /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				FCD26A57DAC5F30112BD236E41B2CAF8 /* MyScene.sks */,
+				B1649FD394A41B7E0C1CD984ADB0F8AC /* Game Overlay */,
+				B7A06A8C14914EE9FDF7A5A792A1474B /* Main Scenes */,
+				316EC123DB6FEED5F1B972EC48FA5364 /* Utility Overlay */,
+			);
+			name = Scenes;
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		CEFEF55D7E8F428082294DC1BB5CB01D /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				42BA3E5C2DD8523BCA4A346E52B372D7 /* LICENSE */,
+				AC41AA71C411E6AFB510F9D358DCE8C7 /* README.md */,
+				EA958EBF3D009AA18B26A3A1BC4AD613 /* UalaFlappy.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				5C9FDEF928D0B8D8D69B296EB227E3DB /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				DA8DF67F2A91C074AD4533838276D409 /* Products */,
+				2FDCABF4EC08976829C52EDC75B1563B /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D25294218B546F1ABAD565CC0C12EE0F /* Game Componens */ = {
+			isa = PBXGroup;
+			children = (
+				AABDE061B7550684E7A2667336FF7C15 /* InfiniteSpriteScrollNode.swift */,
+				2ECC53DAE085281E463A180133712DB3 /* PipeNode.swift */,
+			);
+			name = "Game Componens";
+			path = "Game Componens";
+			sourceTree = "<group>";
+		};
+		D342ACF40A0625C35A22971B3C24BF17 /* Control */ = {
+			isa = PBXGroup;
+			children = (
+				DE84C9F2AE9866672D6E84944EE258EB /* ControlInputDirection.swift */,
+			);
+			name = Control;
+			path = UalaFlappy/Classes/Control;
+			sourceTree = "<group>";
+		};
+		DA8DF67F2A91C074AD4533838276D409 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				437C51BFC1B059FC94956252064DC51F /* Pods-UalaFlappy_Example */,
+				C7450BE3818E576E04B3AF3F4014068A /* Pods-UalaFlappy_Tests */,
+				36488F36ABC5448DA4424E3A4F6865CE /* UalaFlappy */,
+				3A3687B3E5B1A1DE3BB4870C04AE5904 /* UalaFlappy-Flappy */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DAC9A318E53538A6A58A4903DF756027 /* Sound */ = {
+			isa = PBXGroup;
+			children = (
+				14D88AFD02DBF46C27CCC93493E97155 /* Game */,
+				40897B423322FFC11DE577C189E9F280 /* UI */,
+			);
+			name = Sound;
+			path = Sound;
+			sourceTree = "<group>";
+		};
+		F50F1CC9F786DB3E59D3A39DDF9051EB /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				1BB5765D577DD30850840E0901A51C05 /* CharactersScene.swift */,
+				458BCD539F6641D0A1E9DA7D99F5FED2 /* FailedScene.swift */,
+				67360DEE65CCD6A3BF597CAF7FB8B305 /* GameScene.swift */,
+				C14BC4127D901CC0777F950ED97DFB42 /* MyScene.swift */,
+				23086E278325110982AF06CB44381EF3 /* RoutingUtilityScene.swift */,
+				5EB96CB8455E6D14E8E59D90D57443F3 /* SceneOverlay.swift */,
+				10369FA87CA22F5AD4683CF47934C3A1 /* ScoresScene.swift */,
+				35D489AE6AB7ACECB3AAC470DCEDBD6B /* SettingsScene.swift */,
+				D5FE694A82494BAA2029D9B03A8362B6 /* TitleScene.swift */,
+			);
+			name = Scenes;
+			path = UalaFlappy/Classes/Scenes;
+			sourceTree = "<group>";
+		};
+		FAC2F604D14FAD4C56952CC333C3D923 /* Shaders */ = {
+			isa = PBXGroup;
+			children = (
+				07A7A434E85BAA8F46500E1219C1E695 /* Transitions */,
+			);
+			name = Shaders;
+			path = Shaders;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		33B9315D5FE3D9F6517F7285E41A5388 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3D160A01156947BA33DE76984361C84 /* Pods-UalaFlappy_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		347167B489406C44744FF83765D9FAB2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8403CA830376F23926E0BE4D5ED50CC4 /* Pods-UalaFlappy_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B200C9E01338AF3F9C37C05C5B774DB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9451651783AF2113D9C9A43DCEF6DC40 /* UalaFlappy-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6712E4F18535C4454BB7815795A7E3B6 /* Pods-UalaFlappy_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C0E31F9A7ACA7676CABE65ED82AF203 /* Build configuration list for PBXNativeTarget "Pods-UalaFlappy_Tests" */;
+			buildPhases = (
+				347167B489406C44744FF83765D9FAB2 /* Headers */,
+				D54CC0940746EFAC1EED398DCFDD5027 /* Sources */,
+				3A0A0CC53B54E141EDFF9F8ABA15820D /* Frameworks */,
+				72B5EEE8E476CF8E9189C946DB834BE6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2CA521F20DCD24FD09FA7DB14657E453 /* PBXTargetDependency */,
+			);
+			name = "Pods-UalaFlappy_Tests";
+			productName = Pods_UalaFlappy_Tests;
+			productReference = C7450BE3818E576E04B3AF3F4014068A /* Pods-UalaFlappy_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+		71B722285FFF855120FE09653F9552F7 /* UalaFlappy-Flappy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF0D104794FE051354E376EC90E7DEB0 /* Build configuration list for PBXNativeTarget "UalaFlappy-Flappy" */;
+			buildPhases = (
+				52C875495FFBB75ABE52A484C842CC02 /* Sources */,
+				3F5418AFD10BEC3FE0BD3C0EE4A73E8A /* Frameworks */,
+				3662F1637F4928F185A0CB72E02E88CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UalaFlappy-Flappy";
+			productName = Flappy;
+			productReference = 3A3687B3E5B1A1DE3BB4870C04AE5904 /* UalaFlappy-Flappy */;
+			productType = "com.apple.product-type.bundle";
+		};
+		7587E32107F3EB64C5E03B4317CD7ED3 /* UalaFlappy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06818FAA6B0E56F8CC0A7CFFB2185CB2 /* Build configuration list for PBXNativeTarget "UalaFlappy" */;
+			buildPhases = (
+				4B200C9E01338AF3F9C37C05C5B774DB /* Headers */,
+				337BA17EDAAAA77BC2CC1842B84FE9CB /* Sources */,
+				ECF8239306293991793081DD239200F9 /* Frameworks */,
+				A6ABAC2B21F3CAA7C128056DF8186E0F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF57F4F2148F2DCDFF3AECB04FACF5CD /* PBXTargetDependency */,
+			);
+			name = UalaFlappy;
+			productName = UalaFlappy;
+			productReference = 36488F36ABC5448DA4424E3A4F6865CE /* UalaFlappy */;
+			productType = "com.apple.product-type.framework";
+		};
+		D2128A7834C14F857A1BB0751F6876DD /* Pods-UalaFlappy_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB4EB989C02BA35532AF96C31887289B /* Build configuration list for PBXNativeTarget "Pods-UalaFlappy_Example" */;
+			buildPhases = (
+				33B9315D5FE3D9F6517F7285E41A5388 /* Headers */,
+				8C92037040F6D89DF0859A7F7CF69196 /* Sources */,
+				F0E043C6D7439E683C8AF9954234DEA7 /* Frameworks */,
+				97AA3681D397D89F1FCB5DD43C4F5997 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				095BCF9A17F8247E6AF72E49D1C3D8EA /* PBXTargetDependency */,
+			);
+			name = "Pods-UalaFlappy_Example";
+			productName = Pods_UalaFlappy_Example;
+			productReference = 437C51BFC1B059FC94956252064DC51F /* Pods-UalaFlappy_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = DA8DF67F2A91C074AD4533838276D409 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2128A7834C14F857A1BB0751F6876DD /* Pods-UalaFlappy_Example */,
+				6712E4F18535C4454BB7815795A7E3B6 /* Pods-UalaFlappy_Tests */,
+				7587E32107F3EB64C5E03B4317CD7ED3 /* UalaFlappy */,
+				71B722285FFF855120FE09653F9552F7 /* UalaFlappy-Flappy */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3662F1637F4928F185A0CB72E02E88CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDCEEB9F71D3CC17B814ED50DB5F1118 /* Actions.sks in Resources */,
+				E797078B330713078633614CF9671506 /* animated-gamecat-nyan.gif in Resources */,
+				8968C7C791F0E9716C3ACABEFA53D831 /* animated-jazz-nyan.gif in Resources */,
+				D48FED9190A1DB3E3CFE6AFF37CE1867 /* animated-lifealope-nyan.gif in Resources */,
+				2BCDC7F4CC65489B21D9C32E8EDE0DEB /* animated-nyan-hip.gif in Resources */,
+				4705FDFBC136C54AFEC31C8549CBC7FC /* animated-nyan-squirrel.gif in Resources */,
+				6AFCBF81DFE69227BC78BD9419DECB08 /* animated-nyancoin.gif in Resources */,
+				5EE932624DE478F86EB25DCC904FF2A2 /* Assets.xcassets in Resources */,
+				9817C7432DEE385B2389172AC426F198 /* CharactersScene.sks in Resources */,
+				A9AA9ACEB85545E285241E1010B1A8E4 /* CharactersScene iPad.sks in Resources */,
+				2E0B8C2A07DC0327B13FE2F8C6EA28C2 /* click1.mp3 in Resources */,
+				C6A4CB18A2F591FB1AFB7870C0740305 /* click2.mp3 in Resources */,
+				E410EF919F7F795D2510A709DDA1BDFD /* clock-final-tick.mp3 in Resources */,
+				F3E7E4900F71AD2F7BBAB59283B07EE9 /* clock-tick.mp3 in Resources */,
+				08FC8B4DE412FBD0F6321C9A8D4EA6BD /* Coin.wav in Resources */,
+				910F7B90E6C762190B6C2AF7A0445AF3 /* FailedScene.sks in Resources */,
+				BC4C7C0C5E0AA0BC548F8499D1906D06 /* FailedScene iPad.sks in Resources */,
+				F4B6474F5095C9DBB7B0925BC073ADB7 /* GameScene.sks in Resources */,
+				6408D09C25062C7274FDA70F5AF7BE0B /* GameScene iPad.sks in Resources */,
+				64EEF1A1B6EFE774424D8CAFEBD579B9 /* GameViewController.xib in Resources */,
+				EE0BB4312485883B0EFACBEE542A865E /* Hit_Hurt.wav in Resources */,
+				3AD2FE60C568E21A28ECFC2ABD51E74A /* main-theme1.mp3 in Resources */,
+				F774E2E7DD914CF9A96F9D6968476C67 /* MyScene.sks in Resources */,
+				95512C56FE60534BB4BBE5579B74BB37 /* Particles.xcassets in Resources */,
+				9019C8B21896E6589C62263E69F9A054 /* PauseScene.sks in Resources */,
+				D73C44BBAC680FDCB952035FCE15EC18 /* PauseScene iPad.sks in Resources */,
+				165DE6E3B3D4533D35D101E472CD52F4 /* Pixel Digivolve.otf in Resources */,
+				EE201801DD6B90FA8FDE28C35973BD5D /* POL-catch-them-all-short.wav in Resources */,
+				D9506F6DD9E184BC46272509E4DCEF66 /* POL-flight-master-short.wav in Resources */,
+				A9348C8221DDB25A4773050880EF0968 /* PrePlayScene.sks in Resources */,
+				17865D89747DD928F756492ED936C737 /* RainParticleEffect.sks in Resources */,
+				0ED2E327953C9E8FBD9F769FF1716FDF /* retro_transition_fade_from_centre.fsh in Resources */,
+				744ECA5C9215FEFACBB1AEB8F9D03873 /* retro_transition_fade_from_top.fsh in Resources */,
+				C4B22DAA467619056276A6BAAD213DFD /* retro_transition_fade_from_top_left.fsh in Resources */,
+				5D4713288CC178C5C7A3C3F752A08B2C /* retro_transition_fade_to_centre.fsh in Resources */,
+				DFD21E5882BCE66E2051EA694029ECE5 /* rollover1.mp3 in Resources */,
+				0B9E4C51481F2C2ECB810709AD45B078 /* rollover2.mp3 in Resources */,
+				AA10802B310FDA945A47672CB1602C07 /* ScoreScene.sks in Resources */,
+				A01744216E11C8DC1177A1AA902832CE /* ScoreScene iPad.sks in Resources */,
+				E90FEB5B4D64D922102F3498B6695EA4 /* SettingsScene.sks in Resources */,
+				A1AB8E7B4B4BA43CFF27565AE489503A /* SettingsScene iPad.sks in Resources */,
+				539BDA1D5CEC2BDBA447E2B4B41E4A47 /* SnowParticleEffect.sks in Resources */,
+				C0D4F7283A531EA62AA5C25F946BB871 /* switch2.mp3 in Resources */,
+				8E4E288E4AAD13F233F2CCC9D5067668 /* switch3.mp3 in Resources */,
+				091AFBE4E810D994F30B8EF51422804A /* TitleScene.sks in Resources */,
+				956FBD390D4EA644208702DF1A9D804A /* TitleScene iPad.sks in Resources */,
+				4E3874D6B4B3BDF0550072B0E14781F0 /* TouchToFlyScene.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72B5EEE8E476CF8E9189C946DB834BE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97AA3681D397D89F1FCB5DD43C4F5997 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6ABAC2B21F3CAA7C128056DF8186E0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A8C50D1B967C471F795B4F4ED4C2C76 /* UalaFlappy-Flappy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		337BA17EDAAAA77BC2CC1842B84FE9CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4455F2407E2B2E6F3A1D64AE8FC2DB0 /* BirdNode.swift in Sources */,
+				EB3E61D68952FF7D9232EF5D30438D25 /* Bool+PipeRandom.swift in Sources */,
+				DACE432647C8848665D1C94E6945B69B /* ButtonNode.swift in Sources */,
+				B371C0C00A056F79588FF255B87AB94F /* CGFloat+MathUtils.swift in Sources */,
+				BB9F100C452991271F992C6EBA853D5C /* CharactersScene.swift in Sources */,
+				327F26839236A7BFDFA2167FFF4D9D4D /* ControlInputDirection.swift in Sources */,
+				2BC7585A1FA884A9BFABF0502C738697 /* FailedScene.swift in Sources */,
+				04D662EE3F0A2597321B5C67F28CF534 /* FlappyImage.swift in Sources */,
+				1D55A02B6F1713CA5394D7B88D13328F /* FlappyModule.swift in Sources */,
+				58B1AEC9EF366BD8573709F041618778 /* GameOverState.swift in Sources */,
+				14CA0702BBE6DF0AA1F2CBBC03E564BE /* GameScene.swift in Sources */,
+				B8E4627FC2B42F819BF860119E996893 /* GameSceneAdapter.swift in Sources */,
+				89A12BA1065CAFF568D0268F5E147F5A /* GameSceneProtocol.swift in Sources */,
+				02D4FCAF58ECD34957955592DB002E4D /* GameViewController.swift in Sources */,
+				6E74BA26A0A9113FB36CE87B4FFBD61E /* GameViewController.xib in Sources */,
+				DBB77F467F23CEFA0A040B1D6FDE47CD /* InfiniteSpriteScrollNode.swift in Sources */,
+				CA113177F1CCC74C5828229531B891C4 /* MyScene.swift in Sources */,
+				933E41945B8C297CAD94AF03EB42A903 /* NyancatNode.swift in Sources */,
+				83558B6EFDF0BEBB7A63D8DA4101F9DD /* NyancatRainbowNode.swift in Sources */,
+				F01C8FF08A263FC52DAEA062C5F45F10 /* PausedState.swift in Sources */,
+				D0E9E93977F2E3C54F6B4C41E31F4257 /* PhysicsCategories.swift in Sources */,
+				90E3296C4E1BA6DBBC197F3C1374CA98 /* PhysicsContactable.swift in Sources */,
+				F40FB5C7018382ECEB7678166A83B6DE /* PipeFactory.swift in Sources */,
+				E929D0150438F20F4514228CDE37B34F /* PipeNode.swift in Sources */,
+				73826BEA711A586CD0DD8220910D97A3 /* Playable.swift in Sources */,
+				9D9196AB15ABB19FD6ABBC9A81E4B02A /* PlayingState.swift in Sources */,
+				CB41699E8F5C846AE9F88886BA67C9E6 /* ReplaceMe.swift in Sources */,
+				53042DF17F18B03DCBCED5FBD5B06ED3 /* RoutingUtilityScene.swift in Sources */,
+				5A8DC8E8AA949BA65AFE783C40456C97 /* SceneOverlay.swift in Sources */,
+				7245BC501834B308A1A19EA594E4F3D4 /* ScoresScene.swift in Sources */,
+				FCD7C486C106D56153446D7E640DD2DB /* SettingsScene.swift in Sources */,
+				2718EE419DD377A46271720F6FDF065C /* SKAudioNode+.swift in Sources */,
+				8E1CB7BDD2D39F360031ADA28B848AD8 /* SKEmitterNode+Utils.swift in Sources */,
+				A84F608FD1CBC72A3D82F5D709B3B927 /* SKScene+ShaderTransition.swift in Sources */,
+				B38508588C94D64690FBB897EBB25966 /* SKScene+SpriteUploader.swift in Sources */,
+				A7EA1CE4478B2F8A6C8BDE1E390D2D5D /* SKSpriteNode+GIF.swift in Sources */,
+				A46BB80FFDFA11588FC7C5D5AFFBF61B /* SKTexture+Gradient.swift in Sources */,
+				8C43C9F0131BF32BEEB2DED5FFB9CDAB /* SKTextureAtlas+FrameUploader.swift in Sources */,
+				80EA3B7F4C95DA67C2973DAD6D690F81 /* TitleScene.swift in Sources */,
+				4C75DCA7EA76BF50204C9FEF19D055A0 /* ToggleButtonNode.swift in Sources */,
+				677ED14B9D37DDB1C3B169DBE237DFD2 /* Touchable.swift in Sources */,
+				A87645141628D69C587FD1E7894F0A57 /* TriggleButtonNode.swift in Sources */,
+				5D9370AC53D6055A9F88E287AB8C3280 /* UalaFlappy-dummy.m in Sources */,
+				20813192316B52A79F097A4ABF0FE980 /* Updatable.swift in Sources */,
+				F9AB815B8A01C627ED3E13ED3CC3B5E9 /* UserDefaults.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52C875495FFBB75ABE52A484C842CC02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C92037040F6D89DF0859A7F7CF69196 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD17DFF79384162B2D144E77D0DC88BE /* Pods-UalaFlappy_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D54CC0940746EFAC1EED398DCFDD5027 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97E83D824CF29F949249CC3914C54AF0 /* Pods-UalaFlappy_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		095BCF9A17F8247E6AF72E49D1C3D8EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UalaFlappy;
+			target = 7587E32107F3EB64C5E03B4317CD7ED3 /* UalaFlappy */;
+			targetProxy = 75E23A4FDF36F3C5FD124A86210820F2 /* PBXContainerItemProxy */;
+		};
+		2CA521F20DCD24FD09FA7DB14657E453 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-UalaFlappy_Example";
+			target = D2128A7834C14F857A1BB0751F6876DD /* Pods-UalaFlappy_Example */;
+			targetProxy = CA18738F9EE92319CF9CF4A0CCBC87BE /* PBXContainerItemProxy */;
+		};
+		AF57F4F2148F2DCDFF3AECB04FACF5CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "UalaFlappy-Flappy";
+			target = 71B722285FFF855120FE09653F9552F7 /* UalaFlappy-Flappy */;
+			targetProxy = 185C32BDE0446F09753E4049EE88F5FC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1979AEE8FCF2730BF19F233B497460E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39F665C1D57989C5EE5B68E926264987 /* UalaFlappy.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/UalaFlappy/UalaFlappy-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UalaFlappy/UalaFlappy-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/UalaFlappy/UalaFlappy.modulemap";
+				PRODUCT_MODULE_NAME = UalaFlappy;
+				PRODUCT_NAME = UalaFlappy;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.4;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		65FB61B1E531C81DF4A3433A86D66A57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C1C3B4AB5DB0C1BEB9C3E9BEA8F2019 /* Pods-UalaFlappy_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-UalaFlappy_Tests/Pods-UalaFlappy_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UalaFlappy_Tests/Pods-UalaFlappy_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		80915D3EC38F3CF5AA6AEE990CE3B458 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F878707ECE24D72FA9119BC1E7D5C92B /* Pods-UalaFlappy_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-UalaFlappy_Example/Pods-UalaFlappy_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UalaFlappy_Example/Pods-UalaFlappy_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8DE5143C03248BB6CD542DE3963D6F3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9DDE002221E6B7CD7083C63C9D080974 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32F805918D35D7D53A7F2E298751EC52 /* Pods-UalaFlappy_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-UalaFlappy_Example/Pods-UalaFlappy_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UalaFlappy_Example/Pods-UalaFlappy_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9E406C6AAF85E580207CD97B0044DEAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B13DE374ADB0021DF44FE2E6C2E11CF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0AD387E30111396BDC01A7336038AD0 /* UalaFlappy.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/UalaFlappy/UalaFlappy-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UalaFlappy/UalaFlappy-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/UalaFlappy/UalaFlappy.modulemap";
+				PRODUCT_MODULE_NAME = UalaFlappy;
+				PRODUCT_NAME = UalaFlappy;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.4;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C3503577E84C45C7002E124CC16E893D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88AC40852EC653CBCF32ED65A047E79D /* Pods-UalaFlappy_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-UalaFlappy_Tests/Pods-UalaFlappy_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UalaFlappy_Tests/Pods-UalaFlappy_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D12E6618EE1AF43CF4B7DF5D93DF00F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39F665C1D57989C5EE5B68E926264987 /* UalaFlappy.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/UalaFlappy";
+				IBSC_MODULE = UalaFlappy;
+				INFOPLIST_FILE = "Target Support Files/UalaFlappy/ResourceBundle-Flappy-UalaFlappy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_NAME = Flappy;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		DB266196C1920A1E4A6DC78EE2C0D9DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0AD387E30111396BDC01A7336038AD0 /* UalaFlappy.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/UalaFlappy";
+				IBSC_MODULE = UalaFlappy;
+				INFOPLIST_FILE = "Target Support Files/UalaFlappy/ResourceBundle-Flappy-UalaFlappy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_NAME = Flappy;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		06818FAA6B0E56F8CC0A7CFFB2185CB2 /* Build configuration list for PBXNativeTarget "UalaFlappy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B13DE374ADB0021DF44FE2E6C2E11CF5 /* Debug */,
+				1979AEE8FCF2730BF19F233B497460E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DE5143C03248BB6CD542DE3963D6F3A /* Debug */,
+				9E406C6AAF85E580207CD97B0044DEAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C0E31F9A7ACA7676CABE65ED82AF203 /* Build configuration list for PBXNativeTarget "Pods-UalaFlappy_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3503577E84C45C7002E124CC16E893D /* Debug */,
+				65FB61B1E531C81DF4A3433A86D66A57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB4EB989C02BA35532AF96C31887289B /* Build configuration list for PBXNativeTarget "Pods-UalaFlappy_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80915D3EC38F3CF5AA6AEE990CE3B458 /* Debug */,
+				9DDE002221E6B7CD7083C63C9D080974 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF0D104794FE051354E376EC90E7DEB0 /* Build configuration list for PBXNativeTarget "UalaFlappy-Flappy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB266196C1920A1E4A6DC78EE2C0D9DA /* Debug */,
+				D12E6618EE1AF43CF4B7DF5D93DF00F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

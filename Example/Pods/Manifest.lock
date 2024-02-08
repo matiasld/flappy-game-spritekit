@@ -1,0 +1,16 @@
+PODS:
+  - UalaFlappy (0.0.3)
+
+DEPENDENCIES:
+  - UalaFlappy (from `../`)
+
+EXTERNAL SOURCES:
+  UalaFlappy:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  UalaFlappy: 59f9dec04eedba5a8524bdf3fdfc9f7acadfe3b2
+
+PODFILE CHECKSUM: 379a591ea479fec84bc554f0495a3e164485009b
+
+COCOAPODS: 1.14.3

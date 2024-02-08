@@ -1,0 +1,52 @@
+{
+  "_buildCommand2" : {
+    "command" : "prepareForIndexing",
+    "enableIndexBuildArena" : false,
+    "targets" : null
+  },
+  "buildCommand" : "build",
+  "configuredTargets" : [
+    {
+      "guid" : "bfdfe7dc352907fc980b868725387e9877fe861d114fb2e41fe0ecd2ddae2842"
+    },
+    {
+      "guid" : "bfdfe7dc352907fc980b868725387e9819f3876bf35c1f6fcd0c2fe9b6af2ccc"
+    },
+    {
+      "guid" : "bfdfe7dc352907fc980b868725387e9848b92551e34cb2a020fcb4ee8bc36ac1"
+    }
+  ],
+  "containerPath" : "/Users/matiasladelfa/Documents/local-projects/UnityForiOS/UalaFlappy/Example/Pods/Pods.xcodeproj",
+  "continueBuildingAfterErrors" : true,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "",
+      "buildProductsPath" : "",
+      "derivedDataPath" : "/Users/matiasladelfa/Library/Developer/Xcode/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/matiasladelfa/Library/Developer/Xcode/DerivedData/Pods-ahzrdqkgnwymqlekdkdvgloeznba/Index/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/matiasladelfa/Library/Developer/Xcode/DerivedData/Pods-ahzrdqkgnwymqlekdkdvgloeznba/Index/PrecompiledHeaders",
+      "pchPath" : ""
+    },
+    "configurationName" : "Release",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO"
+        }
+      }
+    }
+  },
+  "qos" : "default",
+  "schemeCommand" : "launch",
+  "schemeCommand2" : "launch",
+  "shouldCollectMetrics" : false,
+  "showNonLoggedProgress" : true,
+  "useDryRun" : true,
+  "useImplicitDependencies" : false,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : false
+}

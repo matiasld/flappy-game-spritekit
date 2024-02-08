@@ -1,0 +1,6 @@
+Target dependency graph (3 targets)
+UalaFlappy in Pods, no dependencies
+Pods-UalaFlappy_Example in Pods, depends on:
+UalaFlappy in Pods (explicit)
+Pods-UalaFlappy_Tests in Pods, depends on:
+Pods-UalaFlappy_Example in Pods (explicit)
